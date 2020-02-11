@@ -4,6 +4,9 @@
     "description": "RUT for Angular 9",
     "main": "dist/ng2-rut.module.js",
     "types": "dist/ng2-rut.module.d.ts",
+    "scripts": {
+        "prepare": "npm run build"
+    },
     "files": [
         "dist",
         "README.md",
