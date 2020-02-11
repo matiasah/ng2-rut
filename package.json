@@ -4,9 +4,6 @@
     "description": "RUT for Angular 9",
     "main": "dist/ng2-rut.module.js",
     "types": "dist/ng2-rut.module.d.ts",
-    "scripts": {
-        "preinstall": "ng build ng2-rut --outputPath=node_modules/ng2-rut/"
-    },
     "files": [
         "dist",
         "README.md",
