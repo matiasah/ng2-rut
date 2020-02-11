@@ -1,0 +1,13 @@
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "dest": "../../dist/ng2-rut",
+    "lib": {
+        "entryFile": "src/ng2-rut.module.ts",
+        "umdModuleIds": {
+            "rut-helpers": "rut-helpers"
+        }
+    },
+    "whitelistedNonPeerDependencies": [
+        "rut-helpers"
+    ]
+}

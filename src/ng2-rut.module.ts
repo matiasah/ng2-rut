@@ -9,6 +9,7 @@ import { RutValueAccessor } from './rut-value-accessor';
 export { RutPipe } from './rut.pipe';
 export { RutValidator } from './rut.validator';
 export { RutDirective } from './rut.directive';
+export { RutValueAccessor } from './rut-value-accessor';
 
 @NgModule({
   imports: [
@@ -18,7 +19,7 @@ export { RutDirective } from './rut.directive';
     RutPipe,
     RutDirective,
     RutValidator,
-    RutValueAccessor,
+    RutValueAccessor
   ],
   providers: [
     RutValidator,
